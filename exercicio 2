@@ -1,0 +1,15 @@
+vetor = [0,1]
+c=0
+contador = 0
+
+valor = int(input("Digite um valor - "))-2
+
+while contador < valor:
+    vetor.append(vetor [-1] + vetor [-2])
+    
+    contador = contador +1
+
+if (valor+2) in vetor:
+    print ("o valor consta na sequencia de fibonacci")
+else:
+    print ("o valor não consta na sequencia de fibonacci")
